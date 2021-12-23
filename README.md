@@ -21,7 +21,7 @@ void fill(std::vector<int>& v)//чет тут компилятор ругает�
 void print(const std::vector<int>& v)
 {   
     int j;
-    std::vector<int>::const_iterator largest = std::max_element(v.begin(), v.end());//в вектор втроена функция поиска макс элемента
+    std::vector<int>::const_iterator largest = std::max_element(v.begin(), v.end());//в вектор втроена функция поиска макс элемента сложность O(n)
     std::cout << "Вывод массива перемешенного вектора \n";
     for (int i = 0; i < v.size(); i++)
     {
